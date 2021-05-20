@@ -1,9 +1,33 @@
 :root{
-	 --pear: #dee134ff;
-	--blue-sapphire: #056388ff;
-	--metallic-seaweed: #027a8aff;
-	--persian-green: #00a090ff;
-	--mountain-meadow: #02bb93ff;
-	--dark-purple: #300121ff;
-	--dark-sienna: #330000ff;
+	--pear: #dee134ff; /* links */
+	--blue-sapphire: #056388ff; /* Titles */
+	--metallic-seaweed: #027a8aff; /* background emphasis */
+	--persian-green: #00a090ff; /* background */
+	--mountain-meadow: #02bb93ff; /* unused */
+	--dark-purple: #300121ff; 
+	--dark-sienna: #330000ff; /* text */
+
+	--link_color: var(--pear);
+	--title_color: var(--blue-sapphire);
+	--background_emphasis_color: var(--metallic-seaweed);
+	--background_color: var(--persian-green);
+	--text_color: var(--dark-sienna);
+}
+
+body{
+	color: var(--text_color);
+
+	background-color: var(--background_color)
+}
+
+header, footer{
+	background-color: var(--background_emphasis_color)
+}
+
+a {
+	color: var(--link_color)
+}
+
+h1, h2, h3, h4, h5 {
+	color: var(--title_color);
 }
