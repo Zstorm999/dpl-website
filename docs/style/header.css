@@ -6,16 +6,23 @@ body{
 
 header{
     position: relative;
+    display: flex;
+
     top: 0px;
 
     height: fit-content;
 
     text-align: center;
+    justify-content: center;
 }
 
 header h1{
     margin: 0px;
     padding: 22px 0;
+}
+
+header nav ul{
+    padding: 0;
 }
 
 .list_divider_pipe{
