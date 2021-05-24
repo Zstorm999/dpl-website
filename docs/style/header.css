@@ -1,3 +1,5 @@
+/* Header-related style */
+
 body{
     margin-top: 0px;
     margin-left: 0px;
@@ -7,6 +9,7 @@ body{
 header{
     position: relative;
     display: flex;
+    flex-direction: column;
 
     top: 0px;
 
@@ -37,7 +40,14 @@ header nav ul{
     content: "|";
 }
 
-a{
+
+header a{
     text-decoration: none;
 }
 
+
+header .active{
+    text-decoration: underline wavy;
+    text-decoration-thickness: 0.5px;
+    text-decoration-color: var(--link_underline_color);
+}

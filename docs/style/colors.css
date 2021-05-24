@@ -1,5 +1,8 @@
+/*Color chart, do NOT modify color outside of here ! */
+
 :root{
 	--link_color: #e1e344;
+	--link_underline_color: #aaac31;
 	--title_color: #6fd2fa;
 	--background_emphasis_color: #02626e;
 	--background_color: #008073;
@@ -18,6 +21,7 @@ header, footer{
 
 a {
 	color: var(--link_color);
+	text-decoration-color: var(--link_underline_color);
 }
 
 h1, h2, h3, h4, h5 {
