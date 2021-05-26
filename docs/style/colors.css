@@ -1,9 +1,19 @@
+/*Color chart */
+
 :root{
 	--link_color: #e1e344;
+	--link_underline_color: #aaac31;
 	--title_color: #6fd2fa;
+	--title_color_dark: #a7e6ff;
 	--background_emphasis_color: #02626e;
-	--background_color: #008073;
-	--text_color: #d8d5cf;
+	--background_emphasis_light_color: #178492;
+	--old_background_color: #008073;
+	--background_color: #117c71;
+	--text_color: #fffcf6;
+
+	--card_background_color: #006e63;
+	--card_background_emphasis_color: #026872;
+	--card_text_color: #f1eee7;
 }
 
 body{
@@ -18,8 +28,9 @@ header, footer{
 
 a {
 	color: var(--link_color);
+	text-decoration-color: var(--link_underline_color);
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6{
 	color: var(--title_color);
 }

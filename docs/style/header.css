@@ -1,3 +1,5 @@
+/* Header-related style */
+
 body{
     margin-top: 0px;
     margin-left: 0px;
@@ -7,6 +9,7 @@ body{
 header{
     position: relative;
     display: flex;
+    flex-direction: column;
 
     top: 0px;
 
@@ -25,19 +28,14 @@ header nav ul{
     padding: 0;
 }
 
-.list_divider_pipe{
-    list-style: none;
-}
 
-.list_divider_pipe li {
-    display: inline-block;
-}
-
-.list_divider_pipe li + li::before{
-    content: "|";
-}
-
-a{
+header a{
     text-decoration: none;
 }
 
+
+header .active{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-decoration-color: var(--link_underline_color);
+}

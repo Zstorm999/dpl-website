@@ -1,13 +1,55 @@
+/* Generic style */
+
 body{
     display: flex;
     flex-direction: column;
 
     height: 100%;
     min-height: 100vh;
+
+    font: 400 20px/1.5 "Source Sans Pro","Open Sans",Roboto,"San Francisco",Helvetica,Arial,sans-serif;
+}
+
+/*Defines a list where elements are inline, separated by pipes |*/
+.list_divider_pipe{
+    list-style: none;
+}
+
+.list_divider_pipe li {
+    display: inline-block;
+}
+
+.list_divider_pipe li + li::before{
+    content: "|";
+}
+
+/*Defines a list with no style*/
+
+.list_no_style{
+    list-style: none;
+    padding: 0px;
 }
 
 
 main {
     flex: 1 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.side_nav > nav{
+    float: left;
+    width: 250px;
+    margin-top: 1.5em;
+}
+
+.side_nav > section{
+    margin-left: 270px;
+    margin-top: 1.5em;
 }
 

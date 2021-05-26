@@ -1,0 +1,70 @@
+
+
+.list_hover{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+    font-size: 0.8em;
+}
+
+.list_hover h3{
+    margin: 0px;
+    padding-top: .3em;
+    padding-right: .5em;
+    padding-bottom: .3em; 
+    padding-left: .5em;
+
+    background-color: var(--background_emphasis_color);
+}
+
+.list_hover li{
+    padding-top: .1em;
+    padding-right: .5em;
+    padding-bottom: .3em; 
+    padding-left: 0.8em;
+}
+
+.list_hover a{
+    text-decoration: none;
+}
+
+.list_hover a > li{
+    color: var(--title_color_dark);
+}
+
+.list_hover a > li:hover
+{
+    background-color: var(--background_emphasis_light_color);
+    color: var(--text_color);
+}
+
+.versions_list{
+    list-style: none;
+    padding: 0px;
+}
+
+.versions_list h2{
+    margin-bottom: 0px;
+    padding: .3em .5em;
+
+    background-color: var(--card_background_emphasis_color);
+    
+    
+}
+
+.versions_list ul {
+
+    padding-top: .3em;
+
+    background-color: var(--card_background_color);
+    color : var(--card_text_color);
+
+    list-style-type: disc;
+
+    border-style: none solid solid solid;
+    border-color: var(--card_background_emphasis_color);
+    border-width: 2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

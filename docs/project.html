@@ -8,12 +8,13 @@
         <link rel="stylesheet" href="style/header.css" />
         <link rel="stylesheet" href="style/main.css" />
         <link rel="stylesheet" href="style/footer.css" />
+        <link rel="stylesheet" href="style/project.css" />
 
     </head>
     <body>
 
         <header>
-            <div>
+            <div class="container">
                 <h1>DPL - Duck Programming Language</h1>
 
                 <nav>
@@ -22,7 +23,9 @@
                             <a href="./">Home</a> 
                         </li>
                         <li>
-                            <a href="project.html">The project</a>
+                            <span class="active">
+                                <a href="project.html">The project</a>
+                            </span>
                         </li>
                         <li>
                             <a href="docs.html">Documentation</a>
@@ -43,7 +46,111 @@
         </header>
 
         <main>
-            DPL Website -- Under construction
+            <div class="container side_nav">
+                
+                <nav class="side_nav">
+
+                    <ul class="list_hover">
+
+                        <h3>DPL versions</h3>
+
+                        <a href="#v0.1">
+                            <li>0.1 - Integer arithmetic</li>
+                        </a>
+                        <a href="#v0.2">
+                            <li>0.2 - Functions and pointers</li>
+                        </a>
+                        <a href="#v0.3">
+                            <li>0.3 - Floating point arithmetic</li>
+                        </a>
+                        <a href="#v1.0">
+                            <li>1.0 - Official release</li>
+                        </a>
+                        <a href="#vx.x">
+                            <li>x.x - Cross language capabilities</li>
+                        </a>
+                    </ul>
+
+                </nav>
+
+                <section>
+                    <p>
+                        Duck Programming Language (DPL) is a project that aims at creating a programming language 
+                        that fulfils the needs of modern programmers while still being simple to learn and easy to 
+                        read. Its main goal is to find balance between readability and performance, and being a modern 
+                        and competitive alternative to somewhat harder to learn languages like C++.
+                    </p>
+                    <p>
+                        Here are presented the different versions, aka the plan, that the project will follow during its conception.
+                        Each step will wait for the previous to be completed, and a the end of each step a new version will be 
+                        released, that you can find on the <a href="/downloads.html">downloads</a> page. <br/>
+                        Beware that some things might change, this list is not at all complete.
+                    </p>
+
+                    <ul class="versions_list">
+                        <li>
+                            <article id="v0.1">
+                                <h2>V0.1 : Integer arithmetic</h2>
+
+                                <ul>
+                                    <li>int data type</li>
+                                    <li>char data type</li>
+                                    <li>bool data type</li>
+                                    <li>assignment operator: =</li>
+                                    <li>basic arithmetic operators: + - * / %</li>
+                                    <li>control flow structures: if, else and for</li>
+                                    <li>basic implementation of print</li>
+                                </ul>
+
+                            </article>
+                        </li>
+                        <li>
+                            <article id="v0.2">
+                                
+                                <h2>V0.2 : Functions and pointers</h2>
+                                
+                                
+                            </article>
+    
+                        </li>
+                        <li>
+                            <article id="v0.3">
+                                <h2>V0.3 : Floating point arithmetic</h2>
+                            </article>
+                        </li>
+
+                        <!--Last version planed is 1.0 : official release-->
+                        <li>
+                            <article id="v1.0">
+                                <h2>V1.0 : Official release</h2>
+
+                                <ul>
+                                    <li>compiler for all major OS: Linux, Windows, macOS</li>
+                                    <li>support for CUDA, and other GPU computing tools</li>
+                                </ul>
+                            </article>
+                        </li>
+
+                        <li>
+                            <article id="vx.x">
+                                <h2>Cross language capabilities</h2>
+
+                                <ul>
+                                    <li>C/C++</li>
+                                    <li>Go</li>
+                                </ul>
+                            </article>
+                        </li>
+
+                    </ul>
+
+                    <p>
+                        This isn't the end of DPL! We still have a ton of ideas that might be added later, so check this website
+                        and our social networks regularly to stay informed of upcoming updates and events.
+                    </p>
+
+                </section>
+            </div>
         </main>
 
         <footer>
