@@ -28,18 +28,6 @@ header nav ul{
     padding: 0;
 }
 
-.list_divider_pipe{
-    list-style: none;
-}
-
-.list_divider_pipe li {
-    display: inline-block;
-}
-
-.list_divider_pipe li + li::before{
-    content: "|";
-}
-
 
 header a{
     text-decoration: none;
@@ -47,7 +35,7 @@ header a{
 
 
 header .active{
-    text-decoration: underline wavy;
+    text-decoration: underline;
     text-decoration-thickness: 0.5px;
     text-decoration-color: var(--link_underline_color);
 }

@@ -1,10 +1,12 @@
-/*Color chart, do NOT modify color outside of here ! */
+/*Color chart */
 
 :root{
 	--link_color: #e1e344;
 	--link_underline_color: #aaac31;
 	--title_color: #6fd2fa;
+	--title_color_dark: #4accff;
 	--background_emphasis_color: #02626e;
+	--background_emphasis_light_color: #178492;
 	--background_color: #008073;
 	--text_color: #d8d5cf;
 }
@@ -24,6 +26,6 @@ a {
 	text-decoration-color: var(--link_underline_color);
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6{
 	color: var(--title_color);
 }

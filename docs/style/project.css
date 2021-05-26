@@ -1,0 +1,38 @@
+
+
+.list_hover{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list_hover h3{
+    margin: 0px;
+    padding-top: .3em;
+    padding-right: .5em;
+    padding-bottom: .3em; 
+    padding-left: .5em;
+
+    background-color: var(--background_emphasis_color);
+}
+
+.list_hover li{
+    padding-top: .1em;
+    padding-right: .5em;
+    padding-bottom: .3em; 
+    padding-left: 1em;
+}
+
+.list_hover a{
+    text-decoration: none;
+}
+
+.list_hover a > li{
+    color: var(--title_color_dark);
+}
+
+.list_hover a > li:hover
+{
+    background-color: var(--background_emphasis_light_color);
+    color: var(--text_color);
+}
