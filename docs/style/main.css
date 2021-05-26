@@ -27,9 +27,6 @@ body{
 
 .list_no_style{
     list-style: none;
-}
-
-.list_no_style{
     padding: 0px;
 }
 
@@ -47,12 +44,12 @@ main {
 
 .side_nav > nav{
     float: left;
-    width: 200px;
+    width: 250px;
     margin-top: 1.5em;
 }
 
 .side_nav > section{
-    margin-left: 220px;
+    margin-left: 270px;
     margin-top: 1.5em;
 }
 
