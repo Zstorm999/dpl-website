@@ -28,6 +28,7 @@ body{
 .list_no_style{
     list-style: none;
     padding: 0px;
+    /*margin: 0px;*/
 }
 
 
